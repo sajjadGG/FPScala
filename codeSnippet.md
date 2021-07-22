@@ -12,3 +12,12 @@ Here I put usefule scala and FP code snippet for anyone who wants to take a quic
        } 
 
     ```
+
+### Higher order funciton (aka: pass function as argumet)
+    ```
+        def formatResult(name: String, n: Int, f: Int => Int) = {
+        val msg = "The %s of %d is %d."
+        msg.format(name, n, f(n))
+        }
+    ```
+    
