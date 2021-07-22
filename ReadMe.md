@@ -4,7 +4,16 @@ and will contains important inforamtion and tips and hints revolving this subjec
 ## Functional Programming Concepts
 
 ### Higher-order function
-since functions are values they can be passed into another functions. 
+since functions are values they can be passed into another functions.
+
+### Recursion as loop
+The way to wite loop without mutating the loop variable
+is using recursion usually via local definition (e.g. a recursive helper function that is often called go or loop)
+
+#### Tail call elimination
+A call is said to be in tail position if the caller does nothing other than return the value of the recursive call.
+to give hint to compile and get and error in case of not being tail call use `@annotation.tailrec`
+
 
 
 ## AHAs
