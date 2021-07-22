@@ -22,6 +22,8 @@ to give hint to compile and get and error in case of not being tail call use `@a
 argument can be called this way : `MyModule.abs(42)` is the same as `MyModule abs 42`
 
 
+
+
 ## Hints
 
 ### Using scala REPL
