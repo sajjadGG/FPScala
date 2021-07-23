@@ -1,18 +1,31 @@
 This repo is used as a guide in the jourany of Functional Programming using Scala
 and will contains important inforamtion and tips and hints revolving this subject
 
+## Scala Concepts and keywords
+
+### trait
+a trait is an abstract interface that may optionally contain implementations of some methods
+### sealed
+all implementations should be declared in this file e.g. sealed trait is almost like an abstract class
+### case
+data constructors
+
+
 ## Functional Programming Concepts
 
-### Higher-order function
+- ### Higher-order function
 since functions are values they can be passed into another functions.
 
-### Recursion as loop
+- ### Recursion as loop
 The way to wite loop without mutating the loop variable
 is using recursion usually via local definition (e.g. a recursive helper function that is often called go or loop)
 
-#### Tail call elimination
+- #### Tail call elimination
 A call is said to be in tail position if the caller does nothing other than return the value of the recursive call.
 to give hint to compile and get and error in case of not being tail call use `@annotation.tailrec`
+
+- ### Functional Data Structures
+since these data structures are operated by pure functions hence they are immutable by definition
 
 
 
